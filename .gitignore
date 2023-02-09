@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.env
+node_modules/
+rest_api/
+REST.rest
