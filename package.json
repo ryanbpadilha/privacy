@@ -1,16 +1,15 @@
 {
   "name": "privacy",
   "version": "1.0.0",
-  "description": "git add .\r Add all the files in once\r git commit -m 'you have done a great work'\r You comment about, but use a more detail message\r git push origin main\r I don't know if origin main is necessary after the first time, but it works the same way, at least.\r Here you publish your work at your github repository.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanbpadilha/privacy.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,10 +18,10 @@
   "homepage": "https://github.com/ryanbpadilha/privacy#readme",
   "devDependencies": {
     "dotenv": "^16.0.3",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.21"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^6.9.1"
+    "mongoose": "^7.0.1"
   }
 }
